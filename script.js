@@ -9,7 +9,7 @@ const CONFIG = {
   drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_S-301.pdf",
   calcsPdf: "assets/pdf/AS-P1_Calculations_CAL-001_CAL-002_MTO-001.pdf",
   linkedin: "https://www.linkedin.com/in/abbas-saleh-0a9540368",
-  email: "abbassaleh876@gmail.com",
+  email: "abbas.k.saleh@gmail.com",
   showNextProject: false
 };
 
