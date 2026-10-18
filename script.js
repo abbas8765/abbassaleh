@@ -3,7 +3,7 @@
    Any link left as "#" shows as a disabled "Coming soon" button.
    ============================================================ */
 const CONFIG = {
-  resumePdf: "#",                                                     // e.g. "assets/pdf/Abbas_Saleh_Resume.pdf"
+  resumePdf: "assets/pdf/Abbas_Saleh_Resume.pdf",
   portfolioPdf: "#",                                                  // e.g. "assets/pdf/Abbas_Saleh_Portfolio.pdf"
   briefPdf: "assets/pdf/AS-P1-RPT-001_R0_Technical-Brief.pdf",
   drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_S-301.pdf",
