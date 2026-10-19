@@ -260,7 +260,7 @@
             <div class="thumbs">
               <button class="thumb" type="button" data-src="assets/img/p2-01.png" data-w="1800" data-h="655" data-caption="S-301 — AutoCAD truss elevation" data-alt="Drawing S-301, 24 m Pratt truss elevation at 1:100 with panel dimensions and notes"><img src="assets/img/p2-01.png" alt="" loading="lazy" width="1800" height="655"></button>
               <button class="thumb" type="button" data-src="assets/img/p2-02.png" data-w="1515" data-h="471" data-caption="Robot — ULS axial forces (kN)" data-alt="Robot Structural Analysis axial force diagram, maximum 146.40 kN in the top chord at midspan"><img src="assets/img/p2-02.png" alt="" loading="lazy" width="1515" height="471"></button>
-              <button class="thumb" type="button" data-src="assets/img/p2-03.png" data-w="1501" data-h="381" data-caption="Robot — deflected shape UZ (mm)" data-alt="Robot Structural Analysis deflected shape, maximum 15.8 mm at midspan"><img src="assets/img/p2-03.png" alt="" loading="lazy" width="1501" height="381"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-03.png" data-w="1501" data-h="381" data-caption="Robot — SLS deflected shape UZ (mm)" data-alt="Robot Structural Analysis SLS deflected shape, maximum 15.8 mm at midspan"><img src="assets/img/p2-03.png" alt="" loading="lazy" width="1501" height="381"></button>
               <button class="thumb" type="button" data-src="assets/img/p2-04.png" data-w="1075" data-h="1390" data-caption="Hand calculation — loads, reactions, joints L0 and U0" data-alt="Handwritten calculation sheet: loads, reactions and method of joints at L0 and U0"><img src="assets/img/p2-04.png" alt="" loading="lazy" width="1075" height="1390"></button>
               <button class="thumb" type="button" data-src="assets/img/p2-05.png" data-w="1075" data-h="1390" data-caption="Hand calculation — joint L1 and section cut" data-alt="Handwritten calculation sheet: joint L1 and a section cut through panel 4 giving 146.40 kN in U3–U4"><img src="assets/img/p2-05.png" alt="" loading="lazy" width="1075" height="1390"></button>
               <button class="thumb" type="button" data-src="assets/img/p2-06.png" data-w="1176" data-h="889" data-caption="AS-P2-CAL-002 — hand vs Robot, all 33 members" data-alt="Spreadsheet comparing hand and Robot member forces for all 33 members"><img src="assets/img/p2-06.png" alt="" loading="lazy" width="1176" height="889"></button>
@@ -276,7 +276,18 @@
           <div class="stat"><span class="stat-num">1,317 kg</span><span class="label">Steel take-off, one truss</span></div>
         </div>
 
-        <!-- EDIT: P2 description and highlights go here once written (same markup as P1: <div class="project-body">…</div>). -->
+        <div class="project-body">
+          <p>Member-force verification of a 24 m, statically determinate Pratt truss for a conveyor gallery, with 8 panels at 3 m, 3 m deep, and pin and roller supports. Loads were worked out by hand to give reactions of 73.2 kN. Seven members were then solved by method of joints (L0, U0, L1) and a section cut through panel 4. The results were compared against a Robot Structural Analysis model after converting Robot's sign convention (+ = compression). SLS deflection was checked, the elevation was drawn in AutoCAD (S-301) and a material take-off was prepared.</p>
+          <div>
+            <h3 class="subhead">Key highlights</h3>
+            <ul class="highlights">
+              <li>All 7 hand-solved members match Robot within 0.0%. The remaining 26 were taken from Robot and checked by symmetry.</li>
+              <li>Governing chord force U3–U4 = 146.4 kN compression, from the section cut M/d = 439.2 / 3.0. It matches Robot exactly.</li>
+              <li>Robot's default self-weight added 12.9 kN to the governing chord force. It was removed so the model matched the hand-calculation load basis.</li>
+              <li>SLS midspan deflection is 15.8 mm against the L/360 limit of 66.7 mm (about L/1520). Steel take-off is 1,317 kg per truss, or 1,449 kg with a 10% connection allowance.</li>
+            </ul>
+          </div>
+        </div>
 
         <div class="project-bar">
           <div class="left">
