@@ -124,28 +124,28 @@
   <!-- PROJECTS -->
   <section class="section" id="projects" aria-labelledby="p1-title" style="padding-top:24px">
     <div class="wrap">
-      <article class="project">
+      <article class="project" id="p1">
         <h2 class="project-title" id="p1-title">Maintenance Platform — Structural Verification</h2>
         <p class="project-sub">Self-directed project · October 2026 · Reviewed by S. Azoubaidy, P.Eng.</p>
         <p class="badge">R0 issued for P.Eng. review · R1 in progress</p>
 
         <div class="gallery-card">
           <!-- Gallery: replace files in assets/img/ (p1-01 … p1-06). Captions live in data-caption. -->
-          <div class="gallery" id="gallery" tabindex="0" aria-roledescription="carousel" aria-label="Project drawings and model images. Use left and right arrow keys to browse.">
+          <div class="gallery" tabindex="0" aria-roledescription="carousel" aria-label="Project drawings and model images. Use left and right arrow keys to browse.">
             <div class="viewer">
-              <img class="viewer-img" id="viewer-img" src="assets/img/p1-01.png" alt="Revit 3D model of the steel maintenance platform" width="1600" height="1495">
+              <img class="viewer-img" src="assets/img/p1-01.png" alt="Revit 3D model of the steel maintenance platform" width="1600" height="1495">
               <div class="viewer-cap" aria-live="polite">
-                <strong id="viewer-caption">Revit 3D model</strong>
-                <span class="count" id="viewer-count">1 of 6 drawings</span>
+                <strong data-role="caption">Revit 3D model</strong>
+                <span class="count" data-role="count">1 of 6 drawings</span>
               </div>
-              <button class="viewer-arrow prev" type="button" id="prev" aria-label="Previous image">
+              <button class="viewer-arrow prev" type="button" aria-label="Previous image">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
               </button>
-              <button class="viewer-arrow next" type="button" id="next" aria-label="Next image">
+              <button class="viewer-arrow next" type="button" aria-label="Next image">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
               </button>
             </div>
-            <div class="thumbs" id="thumbs">
+            <div class="thumbs">
               <button class="thumb" type="button" data-src="assets/img/p1-01.png" data-w="1600" data-h="1495" data-caption="Revit 3D model" data-alt="Revit 3D model of the steel maintenance platform"><img src="assets/img/p1-01.png" alt="" loading="lazy" width="1600" height="1495"></button>
               <button class="thumb" type="button" data-src="assets/img/p1-02.png" data-w="1058" data-h="718" data-caption="Robot — ULS bending moment diagram (kN·m)" data-alt="Robot Structural Analysis ULS bending moment diagram, maximum 78.69 kN·m at B1 midspan"><img src="assets/img/p1-02.png" alt="" loading="lazy" width="1058" height="718"></button>
               <button class="thumb" type="button" data-src="assets/img/p1-03.png" data-w="1116" data-h="766" data-caption="Robot — SLS vertical displacement UZ (mm)" data-alt="Robot Structural Analysis SLS vertical displacement, maximum 10.86 mm at B1 midspan"><img src="assets/img/p1-03.png" alt="" loading="lazy" width="1116" height="766"></button>
@@ -178,7 +178,7 @@
 
         <div class="project-bar">
           <div class="left">
-            <button class="details-toggle" id="details-toggle" type="button" aria-expanded="false" aria-controls="details-panel">
+            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-panel">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
               Technical Details
             </button>
@@ -237,11 +237,108 @@
         </div>
       </article>
 
+      <article class="project" id="p2">
+        <h2 class="project-title" id="p2-title">Conveyor Gallery Truss — Member Force Verification</h2>
+        <p class="project-sub">Self-directed project · October 2026</p>
+        <p class="badge">Rev 0 · first issue</p>
+
+        <div class="gallery-card">
+          <div class="gallery" tabindex="0" aria-roledescription="carousel" aria-label="Truss drawings, analysis and calculation images. Use left and right arrow keys to browse.">
+            <div class="viewer">
+              <img class="viewer-img" src="assets/img/p2-01.png" alt="Drawing S-301, 24 m Pratt truss elevation at 1:100 with panel dimensions and notes" width="1800" height="655">
+              <div class="viewer-cap" aria-live="polite">
+                <strong data-role="caption">S-301 — AutoCAD truss elevation</strong>
+                <span class="count" data-role="count">1 of 7 drawings</span>
+              </div>
+              <button class="viewer-arrow prev" type="button" aria-label="Previous image">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+              </button>
+              <button class="viewer-arrow next" type="button" aria-label="Next image">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+            <div class="thumbs">
+              <button class="thumb" type="button" data-src="assets/img/p2-01.png" data-w="1800" data-h="655" data-caption="S-301 — AutoCAD truss elevation" data-alt="Drawing S-301, 24 m Pratt truss elevation at 1:100 with panel dimensions and notes"><img src="assets/img/p2-01.png" alt="" loading="lazy" width="1800" height="655"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-02.png" data-w="1515" data-h="471" data-caption="Robot — ULS axial forces (kN)" data-alt="Robot Structural Analysis axial force diagram, maximum 146.40 kN in the top chord at midspan"><img src="assets/img/p2-02.png" alt="" loading="lazy" width="1515" height="471"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-03.png" data-w="1501" data-h="381" data-caption="Robot — deflected shape UZ (mm)" data-alt="Robot Structural Analysis deflected shape, maximum 15.8 mm at midspan"><img src="assets/img/p2-03.png" alt="" loading="lazy" width="1501" height="381"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-04.png" data-w="1075" data-h="1390" data-caption="Hand calculation — loads, reactions, joints L0 and U0" data-alt="Handwritten calculation sheet: loads, reactions and method of joints at L0 and U0"><img src="assets/img/p2-04.png" alt="" loading="lazy" width="1075" height="1390"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-05.png" data-w="1075" data-h="1390" data-caption="Hand calculation — joint L1 and section cut" data-alt="Handwritten calculation sheet: joint L1 and a section cut through panel 4 giving 146.40 kN in U3–U4"><img src="assets/img/p2-05.png" alt="" loading="lazy" width="1075" height="1390"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-06.png" data-w="1176" data-h="889" data-caption="AS-P2-CAL-002 — hand vs Robot, all 33 members" data-alt="Spreadsheet comparing hand and Robot member forces for all 33 members"><img src="assets/img/p2-06.png" alt="" loading="lazy" width="1176" height="889"></button>
+              <button class="thumb" type="button" data-src="assets/img/p2-07.png" data-w="1520" data-h="443" data-caption="AS-P2-MTO-001 — material take-off" data-alt="Material take-off table for one truss"><img src="assets/img/p2-07.png" alt="" loading="lazy" width="1520" height="443"></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat"><span class="stat-num">24 m</span><span class="label">Span, 8 panels × 3.0 m</span></div>
+          <div class="stat"><span class="stat-num">146.4 kN</span><span class="label">Max chord force (U3–U4)</span></div>
+          <div class="stat"><span class="stat-num">0.0%</span><span class="label">Hand vs Robot, hand-solved members</span></div>
+          <div class="stat"><span class="stat-num">1,317 kg</span><span class="label">Steel take-off, one truss</span></div>
+        </div>
+
+        <!-- EDIT: P2 description and highlights go here once written (same markup as P1: <div class="project-body">…</div>). -->
+
+        <div class="project-bar">
+          <div class="left">
+            <button class="details-toggle" type="button" aria-expanded="false" aria-controls="details-panel-p2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+              Technical Details
+            </button>
+            <div class="chips" aria-label="Tools used">
+              <span class="chip chip-blue">Hand calculation</span>
+              <span class="chip chip-blue">Robot Structural Analysis</span>
+              <span class="chip chip-blue">Excel</span>
+              <span class="chip chip-blue">AutoCAD</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="details-panel" id="details-panel-p2" hidden>
+          <div>
+            <h3 class="subhead">Hand-solved members vs Robot (AS-P2-CAL-002, R0)</h3>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr><th>Member</th><th>Method</th><th class="num">Hand (kN)</th><th class="num">Robot (kN)</th><th class="num">Difference</th><th>T / C</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>L0–L1</td><td>Joint L0</td><td class="num">0.00</td><td class="num">0.00</td><td class="num">0.0%</td><td>Zero force</td></tr>
+                  <tr><td>U0–L0</td><td>Joint L0</td><td class="num">64.05</td><td class="num">64.05</td><td class="num">0.0%</td><td>C</td></tr>
+                  <tr><td>U0–L1</td><td>Joint U0</td><td class="num">90.58</td><td class="num">90.58</td><td class="num">0.0%</td><td>T</td></tr>
+                  <tr><td>U0–U1</td><td>Joint U0</td><td class="num">64.05</td><td class="num">64.05</td><td class="num">0.0%</td><td>C</td></tr>
+                  <tr><td>U1–L1</td><td>Joint L1</td><td class="num">45.75</td><td class="num">45.75</td><td class="num">0.0%</td><td>C</td></tr>
+                  <tr><td>L1–L2</td><td>Joint L1</td><td class="num">64.05</td><td class="num">64.05</td><td class="num">0.0%</td><td>T</td></tr>
+                  <tr class="flag"><td>U3–U4</td><td>Section cut, panel 4</td><td class="num">146.40</td><td class="num">146.40</td><td class="num">0.0%</td><td>C</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="table-note">Reactions: 73.20 kN each by hand and in Robot (sum 146.40 kN). The other 26 members are taken from Robot and checked by symmetry and equilibrium at joint U4; they were not solved individually by hand.</p>
+          </div>
+          <div>
+            <h3 class="subhead">Design basis</h3>
+            <dl class="basis">
+              <dt>Geometry</dt><dd>Pratt truss, 24.0 m span, 8 panels × 3.0 m, 3.0 m deep · pin at L0, roller at L8 · 33 members, statically determinate</dd>
+              <dt>Trial sections</dt><dd>Chords HSS102×102×6.4 · verticals and diagonals L76×76×6.4 · not design-checked</dd>
+              <dt>Loads</dt><dd>Dead 2.0 kN/m (conveyor 1.5 kN/m + grating 0.5 kPa × 1.0 m) · Live 2.4 kN/m (2.4 kPa × 1.0 m) · all assumed</dd>
+              <dt>Combination</dt><dd>ULS 1.25D + 1.5L = 6.1 kN/m → 18.3 kN at L1–L7, 9.15 kN at L0 and L8 · self-weight excluded</dd>
+              <dt>Scope</dt><dd>Member forces only. Member resistances and connections not designed.</dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="project-bar">
+          <div class="doc-actions">
+            <a class="btn btn-outline" data-link="p2DrawingsPdf" data-icon="doc" href="#" target="_blank" rel="noopener">Drawing S-301 (PDF)</a>
+            <a class="btn btn-outline" data-link="p2CalcsPdf" data-icon="doc" href="#" target="_blank" rel="noopener">Calculations (PDF)</a>
+          </div>
+        </div>
+      </article>
+
       <!-- Next project card: set CONFIG.showNextProject = true in script.js to show it. -->
       <template id="next-project-tpl">
         <article class="project">
           <div class="next-card">
-            <p class="label">Project 02</p>
+            <p class="label">Project 03</p>
             <h3>Next project — coming soon</h3>
           </div>
         </article>
