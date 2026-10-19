@@ -276,6 +276,9 @@ th, td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--li
 th { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-2); background: var(--grey); }
 td.num, th.num { text-align: right; }
 tr.flag td { background: #fff7ea; }
+table.wrap-table { min-width: 640px; }
+table.wrap-table td { white-space: normal; vertical-align: top; line-height: 1.45; }
+table.wrap-table td:first-child { white-space: nowrap; font-weight: 600; }
 .table-note { font-size: 13.5px; color: var(--text-2); margin-top: 10px; max-width: 80ch; }
 .basis { display: grid; grid-template-columns: max-content 1fr; font-size: 15px; margin: 0; }
 .basis dt, .basis dd { margin: 0; padding: 11px 0; border-bottom: 1px solid var(--line); }
