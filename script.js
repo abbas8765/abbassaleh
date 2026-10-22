@@ -5,9 +5,9 @@
 const CONFIG = {
   resumePdf: "assets/pdf/Abbas_Saleh_Resume.pdf",
   portfolioPdf: "assets/pdf/Abbas_Saleh_Portfolio.pdf",
-  briefPdf: "assets/pdf/AS-P1-RPT-001_R0_Technical-Brief.pdf",
-  drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_S-301.pdf",
-  calcsPdf: "assets/pdf/AS-P1_Calculations_CAL-001_CAL-002_MTO-001.pdf",
+  briefPdf: "assets/pdf/AS-P1-RPT-001_R1_Technical-Brief.pdf",
+  drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_R3_S-301_R0.pdf",
+  calcsPdf: "assets/pdf/AS-P1_Calculations_CAL-001-004_MTO-001_R1.pdf",
   p2DrawingsPdf: "assets/pdf/AS-P2_Drawing_S-301.pdf",
   p2CalcsPdf: "assets/pdf/AS-P2_Calculations_CAL-001_CAL-002_MTO-001.pdf",
   p3ReportPdf: "assets/pdf/AS-P3-RPT-001_R0_Literature-Review.pdf",
