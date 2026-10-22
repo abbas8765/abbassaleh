@@ -303,7 +303,9 @@ table.wrap-table td:first-child { white-space: nowrap; font-weight: 600; }
 .job-role { font-size: 19px; font-weight: 700; }
 
 /* ---------- Skills ---------- */
-.skills { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.stat-num small { display: block; font-size: 0.5em; font-weight: 600; margin-top: 2px; }
+.skills { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+@media (max-width: 1200px) { .skills { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .skill-card { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--bg); }
 .skill-card .bar { height: 6px; background: var(--accent); }
 .skill-card.green .bar { background: var(--green); }
