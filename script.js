@@ -173,7 +173,7 @@ const CONFIG = {
         img.src = it.src; img.alt = it.alt; img.width = it.w; img.height = it.h;
       }
       cap.textContent = it.caption;
-      count.textContent = (g.index + 1) + " of " + items.length + " " + (root.dataset.unit || "drawings");
+      count.textContent = (g.index + 1) + " of " + items.length + " " + (root.dataset.unit || "images");
       thumbs.forEach((t, i) => t.setAttribute("aria-current", i === g.index ? "true" : "false"));
       const active = thumbs[g.index];
       if (active && active.parentElement.scrollWidth > active.parentElement.clientWidth) {
