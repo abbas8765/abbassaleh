@@ -49,6 +49,7 @@
     <div class="wrap">
       <h1 class="hero-name" id="hero-name"><span>Abbas</span> <span class="alt">Saleh</span></h1>
       <p class="hero-sub">Civil Engineering Student, Toronto Metropolitan University</p>
+      <p class="hero-line">Structural verification for industrial access, material-handling and hydropower structures.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#projects">View Projects</a>
         <a class="btn btn-green" data-link="resumePdf" data-icon="download" href="assets/pdf/Abbas_Saleh_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
@@ -221,6 +222,17 @@
             </div>
             <p class="table-note">ULS+GY = 1.25D + 1.5L + 1.5GY + 1.0NY governs the post and brace design. Drift differences of a few hundredths of a millimetre come from rounding and minor flexibility not included by hand.</p>
           </div>
+          <div class="results-panel">
+            <h3 class="subhead">Current results (R3, Oct 28 2026)</h3>
+            <ul>
+              <li>B1 checked laterally unbraced over 6.0 m (joist restraint not relied on): ω<sub>2</sub> = 1.17, M<sub>r</sub> = 90.9 kN·m, strong axis 78.70/90.9 = 0.87.</li>
+              <li>Governing: B1 biaxial under ULS+GY = 0.99, conservatively taking the 0.75 kN/m guard line load on B1 alone (0.92 with the 1.0 kN point load). All other members 0.42 or below.</li>
+              <li>W-shapes rechecked at 345WM: J1 Class 4 flange, effective width 142.1 mm, M<sub>r</sub> = 44.1 kN·m, 0.31.</li>
+              <li>Brace ends: 2 × M20 A325 per end, shear 0.03, bearing 0.02.</li>
+              <li>Guard at rail height (4.07 m above base) under 0.9D: minimum post reaction +0.41 kN, no uplift.</li>
+              <li>Guard torsion: long-edge guard posts moved to the J1 lines and J1 ends moment-connected to B1 (1.81 kN·m; J1 0.04, bolts 0.04), so B1 carries no guard torsion.</li>
+            </ul>
+          </div>
           <div>
             <h3 class="subhead">CSA S16 member checks (AS-P1-CAL-004), R1 (superseded by R2)</h3>
             <div class="table-scroll">
@@ -262,7 +274,7 @@
             <a class="btn btn-outline" data-link="drawingsPdf" data-icon="doc" href="assets/pdf/AS-P1_Drawings_S-101_S-201_R3_S-301_R0.pdf" target="_blank" rel="noopener">Drawings (PDF)</a>
             <a class="btn btn-outline" data-link="calcsPdf" data-icon="doc" href="assets/pdf/AS-P1_Calculations_CAL-001-004_MTO-001_R1.pdf" target="_blank" rel="noopener">Calculations (PDF)</a>
           </div>
-          <p class="table-note" style="flex-basis:100%;margin-top:0">Downloads are the R1 package. Drawing revisions (S-101/S-201 Rev 3) are numbered separately from package revisions (R0–R3); the R2 and R3 documents are not published here.</p>
+          <p class="table-note" style="flex-basis:100%;margin-top:0">Downloads are the R1 package. Drawing revisions (S-101/S-201 Rev 3) are numbered separately from package revisions (R0–R3); the R2 and R3 documents are not published here. The general note ‘No CSA S16 design check’ on S-201 Rev 3 predates the member checks and is replaced in Rev 4.</p>
         </div>
       </article>
 
@@ -466,15 +478,6 @@
         </div>
       </article>
 
-      <!-- Next project card: set CONFIG.showNextProject = true in script.js to show it. -->
-      <template id="next-project-tpl">
-        <article class="project">
-          <div class="next-card">
-            <p class="label">Project 04</p>
-            <h3>Next project — coming soon</h3>
-          </div>
-        </article>
-      </template>
     </div>
   </section>
 

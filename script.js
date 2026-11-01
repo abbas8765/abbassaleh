@@ -12,8 +12,7 @@ const CONFIG = {
   p2CalcsPdf: "assets/pdf/AS-P2_Calculations_CAL-001_CAL-002_MTO-001.pdf",
   p3ReportPdf: "assets/pdf/AS-P3-RPT-001_R0_Literature-Review.pdf",
   linkedin: "https://www.linkedin.com/in/abbas-saleh-0a9540368",
-  email: "abbas.k.saleh@gmail.com",
-  showNextProject: false
+  email: "abbas.k.saleh@gmail.com"
 };
 
 (function () {
@@ -70,12 +69,6 @@ const CONFIG = {
       panel.hidden = !open;
     });
   });
-
-  /* ---------- Next project card ---------- */
-  if (CONFIG.showNextProject) {
-    const tpl = document.getElementById("next-project-tpl");
-    if (tpl) tpl.replaceWith(tpl.content.cloneNode(true));
-  }
 
   /* ---------- Nav: shadow, mobile menu, active link ---------- */
   const nav = document.getElementById("nav");
