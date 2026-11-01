@@ -49,15 +49,7 @@
     <div class="hero-shade" aria-hidden="true"></div>
     <div class="wrap">
       <h1 class="hero-name" id="hero-name"><span>Abbas</span> <span class="alt">Saleh</span></h1>
-      <div class="badges">
-        <span class="pill">Civil Engineering Student</span>
-        <span class="pill pill-amber">Autodesk Certified User — Revit</span>
-      </div>
-      <p class="hero-sub">Toronto Metropolitan University</p>
-      <p class="hero-meta">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-        Mississauga, ON · Seeking structural engineering co-op, May 2027
-      </p>
+      <p class="hero-sub">Civil Engineering Student, Toronto Metropolitan University</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="#projects">View Projects</a>
         <a class="btn btn-green" data-link="resumePdf" data-icon="download" href="assets/pdf/Abbas_Saleh_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
@@ -123,7 +115,7 @@
     <div class="wrap">
       <article class="project" id="p1">
         <h2 class="project-title" id="p1-title">Maintenance Platform Verification</h2>
-        <p class="project-sub">Self-directed project · October 2026</p>
+        <p class="project-sub">Self-directed project · October 17–21, 2026 (R0–R1)</p>
         <p class="badge">R1 reviewed by S. Al-Zubaidi, P.Eng. (comments 2026-10-21) · R2 in progress</p>
 
         <div class="gallery-card">
@@ -145,7 +137,7 @@
             <div class="thumbs">
               <button class="thumb" type="button" aria-label="Show Revit 3D model" data-src="assets/img/p1-01.webp" data-w="1600" data-h="1495" data-caption="Revit 3D model" data-alt="Revit 3D model of the steel maintenance platform"><img src="assets/img/p1-01.webp" alt="" loading="lazy" width="1600" height="1495"></button>
               <button class="thumb" type="button" aria-label="Show Robot — ULS bending moment diagram (kN·m)" data-src="assets/img/p1-02.webp" data-w="1058" data-h="718" data-caption="Robot — ULS bending moment diagram (kN·m)" data-alt="Robot Structural Analysis ULS bending moment diagram, maximum 78.69 kN·m at B1 midspan"><img src="assets/img/p1-02.webp" alt="" loading="lazy" width="1058" height="718"></button>
-              <button class="thumb" type="button" aria-label="Show Robot — SLS vertical displacement UZ (mm)" data-src="assets/img/p1-03.webp" data-w="1116" data-h="766" data-caption="Robot — SLS vertical displacement UZ (mm)" data-alt="Robot Structural Analysis SLS vertical displacement, maximum 10.86 mm at B1 midspan"><img src="assets/img/p1-03.webp" alt="" loading="lazy" width="1116" height="766"></button>
+              <button class="thumb" type="button" aria-label="Show Robot — SLS vertical displacement UZ (mm)" data-src="assets/img/p1-03.webp" data-w="1116" data-h="766" data-caption="Robot — SLS vertical displacement UZ (mm)" data-alt="Robot Structural Analysis SLS vertical displacement at B1 midspan, including post shortening"><img src="assets/img/p1-03.webp" alt="" loading="lazy" width="1116" height="766"></button>
               <button class="thumb" type="button" aria-label="Show S-101 — AutoCAD framing plan (R3)" data-src="assets/img/p1-04.webp" data-w="1800" data-h="1151" data-caption="S-101 — AutoCAD framing plan (R3)" data-alt="Drawing S-101, AutoCAD framing plan at 1:50"><img src="assets/img/p1-04.webp" alt="" loading="lazy" width="1800" height="1151"></button>
               <button class="thumb" type="button" aria-label="Show S-201 — AutoCAD sections and notes (R3)" data-src="assets/img/p1-05.webp" data-w="1800" data-h="822" data-caption="S-201 — AutoCAD sections and notes (R3)" data-alt="Drawing S-201, AutoCAD sections on grids A and 1 with general notes"><img src="assets/img/p1-05.webp" alt="" loading="lazy" width="1800" height="822"></button>
               <button class="thumb" type="button" aria-label="Show S-301 — Revit schedule sheet" data-src="assets/img/p1-06.webp" data-w="1700" data-h="1567" data-caption="S-301 — Revit schedule sheet" data-alt="Sheet S-301, Revit steel framing and column schedules"><img src="assets/img/p1-06.webp" alt="" loading="lazy" width="1700" height="1567"></button>
@@ -212,7 +204,7 @@
                 </tbody>
               </table>
             </div>
-            <p class="table-note">B1 deflection: the Robot node displacement is 10.86 mm, which is 10.72 mm net of 0.14 mm post shortening. C1: the Robot reaction (46.83 kN) includes the bracing self-weight. With tension-only braces in R1, all braces are inactive under gravity and the Robot post member force is 46.55 kN, within 1.1% of the 46.03 kN hand value. Comparison criterion: 2%.</p>
+            <p class="table-note">B1 deflection: Robot node displacements include post shortening; under SLS+GY the Robot B1 midspan value is 10.88 mm = 10.72 mm beam deflection + 0.16 mm post shortening (AS-P1-CAL-003). C1: the Robot reaction (46.83 kN) includes the bracing self-weight. With tension-only braces in R1, all braces are inactive under gravity and the Robot post member force is 46.55 kN, within 1.1% of the 46.03 kN hand value. Comparison criterion: 2%.</p>
           </div>
           <div>
             <h3 class="subhead">Lateral loads, hand vs Robot (AS-P1-CAL-003 R1)</h3>
@@ -599,15 +591,14 @@
           <p class="muted">Toronto Metropolitan University · Expected April 2029</p>
           <p class="label" style="margin-top:12px">Relevant coursework</p>
           <div class="edu-tags">
-            <span class="chip chip-outline">Strength of Materials I</span>
-            <span class="chip chip-outline">Strength of Materials II</span>
+            <span class="chip chip-outline">Strength of Materials I (CVL 320)</span>
+            <span class="chip chip-outline">Strength of Materials II (CVL 420)</span>
             <span class="chip chip-outline">Graphics</span>
             <span class="chip chip-outline">Materials Science</span>
             <span class="chip chip-outline">Fluid Mechanics (current)</span>
             <span class="chip chip-outline">Surveying (current)</span>
             <span class="chip chip-outline">Probability &amp; Statistics (current)</span>
             <span class="chip chip-outline">Engineering Communication (current)</span>
-            <span class="chip chip-outline">self-study: Structural Analysis</span>
           </div>
         </div>
       </div>
