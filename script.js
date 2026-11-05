@@ -5,6 +5,7 @@
 const CONFIG = {
   resumePdf: "assets/pdf/Abbas_Saleh_Resume.pdf",
   portfolioPdf: "assets/pdf/Abbas_Saleh_Portfolio.pdf",
+  summaryPdf: "assets/pdf/Abbas_Saleh_Portfolio_Summary.pdf",
   briefPdf: "assets/pdf/AS-P1-RPT-001_R1_Technical-Brief.pdf",
   drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_R3_S-301_R0.pdf",
   calcsPdf: "assets/pdf/AS-P1_Calculations_CAL-001-004_MTO-001_R1.pdf",
