@@ -9,7 +9,7 @@ const CONFIG = {
   drawingsPdf: "assets/pdf/AS-P1_Drawings_S-101_S-201_R3_S-301_R0.pdf",
   calcsPdf: "assets/pdf/AS-P1_Calculations_CAL-001-004_MTO-001_R1.pdf",
   p2DrawingsPdf: "assets/pdf/AS-P2_Drawing_S-301.pdf",
-  p2CalcsPdf: "assets/pdf/AS-P2_Calculations_CAL-001_CAL-002_MTO-001.pdf",
+  p2CalcsPdf: "assets/pdf/AS-P2_Calculations_CAL-001_MTO-001.pdf",
   p3ReportPdf: "assets/pdf/AS-P3-RPT-001_R0_Literature-Review.pdf",
   linkedin: "https://www.linkedin.com/in/abbas-saleh-0a9540368",
   email: "abbas.k.saleh@gmail.com"
