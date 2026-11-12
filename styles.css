@@ -98,6 +98,15 @@ section[id] { scroll-margin-top: calc(var(--nav-h) + env(safe-area-inset-top, 0p
 .nav-links a:not(.btn):hover { color: var(--on-dark); text-decoration: none; }
 .nav-links a.is-active { color: var(--on-dark); border-bottom-color: var(--accent-light); }
 .nav-actions { display: flex; gap: 10px; margin-left: 12px; }
+.nav-name, .nav-links a, .nav .btn-nav { white-space: nowrap; }
+@media (max-width: 1180px) {
+  .nav .wrap { gap: 16px; }
+  .nav-name { font-size: 17px; }
+  .nav-links { gap: 18px; }
+  .nav-links a:not(.btn) { font-size: 14px; }
+  .nav-actions { gap: 8px; margin-left: 4px; }
+  .nav .btn-nav { font-size: 13px; padding: 0 11px; min-height: 34px; }
+}
 .nav .btn-nav { min-height: 38px; padding: 0 14px; font-size: 14px; background: transparent; color: var(--on-dark); border-color: rgba(255,255,255,0.25); }
 .nav .btn-nav:hover { background: rgba(255,255,255,0.1); }
 .menu-btn { display: none; min-height: 44px; padding: 0 4px; background: none; border: 0; font: 600 15px/1 var(--font); color: var(--on-dark); cursor: pointer; }
